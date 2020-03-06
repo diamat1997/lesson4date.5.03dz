@@ -1,0 +1,105 @@
+body{
+    font-family: Montserrat, sans-serif;
+    background: rgb(153, 9, 9);
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    min-width: 360px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header{
+    text-align: center;
+    padding: 1px 1px;
+    margin: 20px auto;
+}
+.main{
+    margin: 1px auto;
+    text-align: center;
+    display: flex;
+}
+
+.elements{
+    background: #000000;
+    text-align: center;
+    padding: 1px;
+    width: 40%;
+}
+
+.elements h2{
+    color: white;
+    margin: 5px auto 10px;
+}
+
+.picture{
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    max-width: 150px;
+    margin: 20px auto 5px;
+}
+
+.columns{
+    display: flex;
+}
+
+.column_left{
+    background: rgb(125, 9, 9);
+    float: left;
+    padding: 20px 0px 150px;
+    margin: 1px 1px;
+    max-width: 20%;
+}
+
+.column_left p{
+color: rgb(233, 91, 17);
+line-height: 40px;
+}
+
+.column_center{
+    margin: 10px;
+    max-width: 60%;
+}
+
+.column_center p{
+    color: white;
+    margin: 20px;
+}
+
+.column_right{
+    float: right;
+    padding: 1px 1px;
+    margin: 20px 0px;
+    max-width: 20%;
+    background: rgb(227, 221, 221);
+}
+
+.column_right p{
+    margin: 20px;
+}
+
+.column_right h2{
+    text-align: center;
+    font-weight: 700;
+    background: rgb(189, 189, 189)
+
+}
+
+hr{
+width: 40px;
+}
+
+u{
+    text-decoration: underline
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    background: rgb(233, 91, 17);
+    padding: 1px;
+    margin: 20px auto 80px;
+}
